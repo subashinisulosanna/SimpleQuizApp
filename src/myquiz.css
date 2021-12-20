@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,100;1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #030352;
+    color: azure;
+    flex-wrap: wrap;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Poppins",sans-serif;
+}
+
+ul{
+    
+    list-style: none;
+}
+h1{
+    padding: 1rem;
+}
+ul li{
+    line-height: 40px;
+    
+}
+.con label{
+    cursor: pointer;
+}
+.con input{
+    cursor: pointer;
+}
+.container{    
+    
+    background-color:black;
+    border-radius: 20px;
+    width: 700px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 5px 2px 2px lightpink;
+}
+button{
+    display: block;
+    width: 700px;
+    border: none;
+    padding: 1rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: azure;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    font-size: 20px;
+    flex-wrap: wrap;
+    font-family: "Poppins",sans-serif;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(199, 202, 204);
+}
+button:focus{
+    background-color:azure;
+}
+button:active{
+    background-color:rgb(157, 170, 182);   
+}
+h2{
+    padding: 10px;
+    margin-left: 200px;
+}
